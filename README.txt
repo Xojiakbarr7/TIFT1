@@ -1,7 +1,8 @@
 TIFT AMALIYOT PLATFORMASI — ISHGA TUSHIRISH
 ===========================================
 Bu paketda sayt, Node.js backend va SQLite ma'lumotlar bazasi mavjud.
-Bu sinov uchun ishlaydigan loyiha, internetga joylashtirilgan sayt emas.
+Bu demo Renderda internet orqali ishlaydi:
+https://tift-platform-demo.onrender.com
 
 1. O'RNATISH
 - Kompyuterga Node.js 24 yoki undan yangisini o'rnating: https://nodejs.org/
@@ -22,6 +23,8 @@ yuklang. Render Blueprint konfiguratsiya fayli loyiha ildizidagi `render.yaml`.
 Blueprint yaratayotganda shu fayl yo'lini ko'rsating.
 Demo xizmati internetga ochiq bo'ladi. Renderning doimiy diski ulanmagan bo'lsa,
 SQLite bazasi qayta ishga tushirish yoki yangi deploy paytida yo'qolishi mumkin.
+Renderning bepul xizmati harakatsizlikda uxlab qoladi; birinchi so'rov sekinroq
+ishlashi mumkin.
 
 2. SINOV AKKAUNTLARI
 Universitet xodimi: UNI-001
