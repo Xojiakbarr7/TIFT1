@@ -29,15 +29,23 @@ ishlashi mumkin.
 2. SINOV AKKAUNTLARI
 Universitet xodimi: UNI-001
 Tashkilot rahbarlari: TAS-001 dan TAS-010 gacha
-Talabalar hisoboti: TAL-001 dan TAL-050 gacha
-Barcha yangi baza uchun boshlang'ich sinov paroli: 123456
-Tizimga kirgach, menyudagi «Parolni o'zgartirish» orqali o'z parolingizni
-almashtirishingiz mumkin. Talaba sahifasida «Parol» tugmasini bosing.
+Namuna talaba hisoblari: TAL-001 dan TAL-050 gacha
+Namuna hisoblarning boshlang'ich paroli: 123456
+Universitet yangi talaba qo'shganda ID va tasodifiy vaqtinchalik parol olinadi.
+Parol faqat bir marta ko'rsatiladi; uni talabaga xavfsiz yo'l bilan yetkazing.
+Kirgandan keyin talaba parolini o'zgartirsin.
 
 3. QANDAY SINASH
 - Universitetga kiring, Talabalar bo'limidan talabani tanlang va tashkilotga
   so'rov yuboring.
 - Chiqib, o'sha tashkilot ID raqami bilan kiring, kelgan so'rovni qabul qiling.
+- Talaba qo'shish uchun universitetning Talabalar bo'limidagi «Talaba qo'shish»
+  tugmasidan F.I.Sh., kafedra va kursni kiriting. Yangi ID avtomatik beriladi.
+- Rad etilgan so'rovni universitet qayta yuborishi mumkin; Talabalar ro'yxatida
+  talabani tanlab, rad etilgan tashkilotga qayta so'rov yuboring.
+- Tashkilot ochiq turganda yangi so'rovlar avtomatik yangilanadi. Aks holda
+  yuqoridagi «Yangilash» tugmasini bosing; kutilayotgan so'rovda «Qabul qilish»
+  tugmasi ko'rinadi.
 - Talaba ID raqami bilan Kunlik hisobotga kirib, qabul qilingan tashkilotni
   tanlang va kunlik ishni yozib yuboring.
 - Tashkilot hisobida Kunlik hisobotlar bo'limini oching: hisobot va biriktirilgan
