@@ -17,6 +17,12 @@ Birinchi ishga tushishda tift.sqlite bazasi shu papkada avtomatik yaratiladi.
 Bazani o'chirmang: unda ma'lumotlaringiz saqlanadi. Zaxira nusxa uchun serverni
 avval to'xtatib, tift.sqlite faylini nusxalang.
 
+Renderga demo sifatida chiqarish uchun loyiha fayllarini GitHub repozitoriysiga
+yuklang. Render Blueprint konfiguratsiya fayli loyiha ildizidagi `render.yaml`.
+Blueprint yaratayotganda shu fayl yo'lini ko'rsating.
+Demo xizmati internetga ochiq bo'ladi. Renderning doimiy diski ulanmagan bo'lsa,
+SQLite bazasi qayta ishga tushirish yoki yangi deploy paytida yo'qolishi mumkin.
+
 2. SINOV AKKAUNTLARI
 Universitet xodimi: UNI-001
 Tashkilot rahbarlari: TAS-001 dan TAS-010 gacha
@@ -29,24 +35,24 @@ almashtirishingiz mumkin. Talaba sahifasida «Parol» tugmasini bosing.
 - Universitetga kiring, Talabalar bo'limidan talabani tanlang va tashkilotga
   so'rov yuboring.
 - Chiqib, o'sha tashkilot ID raqami bilan kiring, kelgan so'rovni qabul qiling.
-- Amaliyotchilar bo'limida vazifa va baho/taqriz kiriting.
-- Chiqib, qabul qilingan talabaning ID raqami bilan Kunlik hisobotga kiring;
-  ishni yozing va kerak bo'lsa faylni (1 MB gacha) yuklang.
-- Tashkilotda Kunlik hisobotlar bo'limidan natijani ko'ring. Yangilash tugmasi
-  yoki bo'limni qayta ochish orqali boshqa foydalanuvchi kiritgan ma'lumot
-  yangilanadi.
+- Talaba ID raqami bilan Kunlik hisobotga kirib, qabul qilingan tashkilotni
+  tanlang va kunlik ishni yozib yuboring.
+- Tashkilot hisobida Kunlik hisobotlar bo'limini oching: hisobot va biriktirilgan
+  fayl shu yerda ko'rinadi. «Tekshirish va baholash» tugmasi orqali baho va
+  taqriz kiriting.
+- Talaba sahifasini yangilang: yuborilgan hisobot holati va tashkilot qo'ygan
+  baho ko'rinadi. Vazifa berish va umumiy baho/taqriz ham Amaliyotchilar
+  bo'limidagi «Boshqarish» tugmalaridan ishlaydi.
 - TAL-001 dastlab TAS-001 da qabul qilingan, TAL-002 so'rovi esa kutilmoqda.
 
 4. BIR NECHTA QURILMA
-Serverni bitta kompyuterda ishga tushiring. Boshqalar ulanishi uchun alohida
-server tarmoq manzili va sozlamasi kerak. Odatiy sozlamada server faqat shu
-kompyuterdan ochiladi. Ishonchli mahalliy tarmoqda mutaxassis HOST=0.0.0.0
-parametrini sozlashi va server kompyuterining IP manzilidan foydalanishi mumkin.
-Oddiy HTTP parol va ma'lumotlarni tarmoqda himoyalamaydi.
+Serverni bitta kompyuterda ishga tushiring. Server tarmoq interfeysida tinglaydi;
+boshqa qurilmalardan faqat ishonchli tarmoqda foydalaning. Oddiy HTTP parol va
+ma'lumotlarni tarmoqda himoyalamaydi.
 
 5. MUHIM XAVFSIZLIK OGOHLANTIRISHI
 Bu demo: talabalar, kafedralar va tashkilotlar nomlari namunaviy. Boshlang'ich
-parollar umumiy va sahifada ko'rsatilgan. Haqiqiy shaxsiy ma'lumot kiritmang,
-uni ochiq internetga joylamang. Haqiqiy foydalanish uchun HTTPS, unikal
-parollar va akkauntlarni boshqarish, xavfsizlik va zaxiralashni sozlash,
-serverni himoyalash va mutaxassis tekshiruvi zarur.
+parollar umumiy va sahifada ko'rsatilgan. Ochiq Render demosiga hech qachon
+haqiqiy shaxsiy ma'lumot kiritmang. Haqiqiy foydalanishdan oldin unikal
+parollar va akkauntlarni boshqarish, doimiy ma'lumotlar ombori, xavfsizlik va
+zaxiralashni sozlash, serverni himoyalash va mutaxassis tekshiruvi zarur.

@@ -1,0 +1,4 @@
+tift.sqlite
+tift.sqlite-shm
+tift.sqlite-wal
+node_modules/
